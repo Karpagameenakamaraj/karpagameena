@@ -1,0 +1,5 @@
+select p1.id,p1.name,a1.concession+g1.concession as "Total Concession",a1.age,g1.gender
+from parent p1,gender g1,age a1
+where a1.age = a2.age and a1.concession in 20%
+where g1.gender = g2.gender and g1.concession in 10%;
+
